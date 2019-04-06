@@ -9,11 +9,24 @@
     <form method="post" action="saveitem">
 
 
+       Song: <input type="text" name="song" value="" required/>
+        <br/>
+        <br/>
+
+        Artist: <input type="text" name="artist" value="" required/>
+        <br/>
+        <br/>
+
+     Where to find: <input type="url" name="wheretofind" value="" requiered/>
+        <br/>
+        <br/>
+
+     Added by: <input type="text" name="addedby" value="<%=loginName%>" required/>
+        <br/>
+        <br/>
 
 
 
-
-        Added by: <input type="text" name="addedBy" value="<%=loginName%>" readonly/>
 
         <button class="btn" type="submit" name="submit">Save Item</button>
 
